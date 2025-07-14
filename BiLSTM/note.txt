@@ -1,1 +1,2 @@
-The neural network model is applied at a station to reconstruct missing data both forward and backward relative to the available dataset
+The neural network model is applied at a station to reconstruct missing data 
+both forward and backward relative to the available dataset
