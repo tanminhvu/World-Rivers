@@ -18,6 +18,9 @@ hall = [];
 load('read_data_precipitation_all.mat')
 hall = cat(2,hall,hp);
 
+%load('read_data_soilw200cm_all.mat')
+%hall = cat(2,hall,hp);
+
 load('fill_small_gaps_data.mat')
 hall = cat(2,hall,ha(:,18 ));
 
