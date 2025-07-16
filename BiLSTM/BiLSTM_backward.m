@@ -20,6 +20,10 @@ load('read_data_precipitation_v401_all.mat')
 hp = flip(hp,1);
 hall = cat(2,hall,hp);
 
+% load('read_data_soilm_all.mat')
+% hp = flip(hp,1);
+% hall = cat(2,hall,hp);
+
 load('fill_small_gaps_data.mat')
 hp = flip(ha(:,3),1);
 
